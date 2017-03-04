@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/wearefetching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wearefetching"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/pleasewait"
+        android:layout_below="@id/wearefetching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pleasewait"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:layout_marginTop="25dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_below="@id/pleasewait"
+        android:minHeight="20dip"
+        android:maxHeight="20dip"
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher"/>
+</RelativeLayout>

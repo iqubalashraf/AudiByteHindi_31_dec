@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AudiByte</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="buttetieninbits">Bulletin in Bits</string>
+    <string name="newnews">New news: 0</string>
+    <string name="wearefetching">We are fetching news for you!</string>
+    <string name="pleasewait">Please wait...</string>
+    <string name="textAppName">Audibyte Running</string>
+    <string name="textOpenApp">Tap to open</string>
+    <string name="offline">Please check your Internet Connection</string>
+    <string name="tabToRetry">Tap to Retry</string>
+    <string name="updatetheapp">Please update the App and stay tuned to Audibyte</string>
+    <string name="updatenow">Update Now!</string>
+    <string name="date">Today</string>
+    <string name="arrow_up">Refresh</string>
+    <string name="share">Share this App</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="exit">Exit</string>
+</resources>
